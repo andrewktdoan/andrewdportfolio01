@@ -44,6 +44,7 @@ body {
 .navbar .logo span {
   font-weight: bold;
   color: var(--primary-color);
+  margin-left: -0.1rem;
 }
 
 .navbar-links ul {
@@ -88,6 +89,7 @@ body {
   background-color: var(--primary-color);
 }
 
+/* Media Queries */
 @media (max-width: 680px) {
   .toggle-button {
     display: flex;
